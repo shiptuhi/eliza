@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    // using think and set to save user's name
+    <category>
+        <pattern>hello </pattern>
+        <template>
+            Hello! Welcome to the student career services chat room. Please type "begin" to get started.
+        </template>
+    </category>
+    <category>
+        <pattern>hi</pattern>
+        <template>
+            Hello! Welcome to the student career services chat room. Please type "begin" to get started.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Hello! Welcome to the student career services chat room. Please type "begin" to get started.
+        </template>
+      </category>
+        
+    // user ending conversation
+    <category>
+        <pattern>BYE</pattern>
+        <template> 
+            Thanks for the chat.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>thank you</pattern>
+        <template>
+            Thank you!
+        </template>
+    </category>
+</aiml>
+
